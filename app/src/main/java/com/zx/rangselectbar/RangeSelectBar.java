@@ -10,6 +10,7 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.IdRes;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -374,14 +375,16 @@ public class RangeSelectBar extends View {
         int position = (int) (distance / pointLength);// 除数
         float remainder = distance % pointLength;// 余数
         if (remainder <= (pointLength / 2)) {
+            slider.position = position;
             slider.center = pointlist.get(position);
         } else {
             int index = position + 1;
+            slider.position = index;
             slider.center = pointlist.get(index);
         }
-        if (mListener != null) {
-            mListener.onRangeSelected(leftSlider.position, rightSlider.position);
-        }
+        Log.e("autoScroll: ", "__" + leftSlider.position + "," + rightSlider.position);
+        if (mListener != null) mListener.onRangeSelected(leftSlider.position, rightSlider.position);
+
     }
 
     public Bitmap drawableToBitmap(Drawable drawable) {
