@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zx.rangselectbar.RangeSelectBar
+        android:id="@+id/rsb_income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:paddingTop="10dp"
+        app:RSBBackgroundColor="@color/gray_word_light"
+        app:RSBBottomPadding="4dp"
+        app:RSBHeight="4dp"
+        app:RSBHintTextList="@array/range_array"
+        app:RSBLeftSliderPosition="0"
+        app:RSBPointRadius="1dp"
+        app:RSBRightSliderPosition="2"
+        app:RSBSelectColor="@color/black"
+        app:RSBSliderRes="@drawable/shape_circle"
+        app:RSBTextColor="@color/black_word"
+        app:RSBTextSize="16dp" />
+
+</LinearLayout>

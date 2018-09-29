@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--常用色值-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_word">#404040</color>
+    <color name="gray_word">#888888</color>
+    <color name="gray_word_light">#C0C0C0</color>
+    <color name="gray_range">#F2F2F2</color>
+    <color name="gray_range_dark">#919499</color>
+    <color name="red">#FF5850</color>
+    <color name="blue">#81AAFF</color>
+    <color name="yellow">#FFB652</color>
+    <color name="green">#417505</color>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RangSelectBar</string>
+    <string-array name="range_array">
+        <item>1,000</item>
+        <item>5,000</item>
+        <item>10,000</item>
+        <item>100,000</item>
+        <item>200,000</item>
+    </string-array>
+</resources>

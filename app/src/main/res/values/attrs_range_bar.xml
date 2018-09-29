@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RangeSelectBar">
+        <attr name="RSBSelectColor" format="color" /><!--选中的范围颜色。-->
+        <attr name="RSBBackgroundColor" format="color" /><!--固定未选中的进度条颜色-->
+        <attr name="RSBHeight" format="dimension" /><!--进度条高度-->
+        <attr name="RSBPointRadius" format="dimension" /><!--进度条上圆点的半径-->
+        <attr name="RSBPointColor" format="color" /><!--进度条上圆点的颜色-->
+        <attr name="RSBBottomPadding" format="dimension" /><!--长条与文字的间隙-->
+        <attr name="RSBSliderRes" format="reference|color" /><!--滑块资源id，左右两边相同。-->
+        <attr name="RSBLeftSliderPosition" format="integer" /><!--左方滑块位置-->
+        <attr name="RSBRightSliderPosition" format="integer" /><!--右方滑块位置-->
+        <attr name="RSBTextColor" format="color" /><!--控件中文字颜色 -->
+        <attr name="RSBTextSize" format="dimension" /><!--文本大小-->
+        <attr name="RSBHintTextList" format="reference" /><!-- 文本数组-->
+        <attr name="RSBHideLeftSlide" format="boolean" /><!-- 隐藏左侧滑块-->
+        <attr name="RSBHideRightSlide" format="boolean" /><!-- 隐藏右侧滑块-->
+    </declare-styleable>
+</resources>
